@@ -11,16 +11,16 @@
 	  
 <div class="violet_basis">
 
-	<header class="violet_header">
+	<header  id="header" class="violet_header">
 		<div>
-	 		<img src="imgfialka/titleviolevi.jpg" alt="VioletVi" height="100px" class="imageviolet">
+	 		<img id="header-img" src="imgfialka/titleviolevi.jpg" alt="VioletVi" height="100px" class="imageviolet">
 	 	</div>
 
-	 	<nav class="violet_basis_right">
-	 		<a class="aboutviolets" href="#AboutViolets">About Violets</a>
-	 		<a class="video" href="#Video">Video</a>
-	 		<a class="price" href="#Price">PriceList</a>
-	 		<a class="products" href="#Products">Our Products</a>
+	 	<nav class="nav-bar" id="nav-bar">
+	 		<a class="nav-link" href="#AboutViolets">About Violets</a>
+	 		<a class="nav-link" href="#Video">Video</a>
+	 		<a class="nav-link" href="#Price">PriceList</a>
+	 		<a class="nav-link" href="#Products">Our Products</a>
 	 	</nav>
 	</header>
 
@@ -52,7 +52,7 @@
 			    
 			    <section class="writeus">
 				    <h3 class="writeus" href="#Write">Want to know more? Write to us:</h3> 
-				    <form id="form" action="irysya.zozuliak@gmail.com" class="writebtn">
+				    <form id="form" action="https://www.freecodecamp.com/email-submit" class="writebtn">
 				    	<input type="email" name="email" id="email" placeholder="enter your text" required>
 				    	<input type="submit" id="submit" value="EnterText" class="btnbtn">
 				    </form>			     
@@ -105,13 +105,15 @@
 
 
 		<section class="mediaviolet">
-			<h4 class="media_title" id="Video">The Top Ten Most Beautiful Violet Flowers</h4>
+			<h4 class="media_title">The Top Ten Most Beautiful Violet Flowers</h4>
 				<div class="mediavid">
-					<iframe width="560" 
+					<iframe id="video" 
+                        width="560" 
 						height="315" 
 						src="https://www.youtube.com/embed/Tsf6axspYMQ" title="YouTube video player" 
 						frameborder="0" 
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="medvid">
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen 
+                        class="medvid">
 					</iframe>
 				</div>
 		</section>
